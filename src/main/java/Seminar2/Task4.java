@@ -23,9 +23,9 @@ public class Task4 {
             e.printStackTrace();
         }
 
-        finally {
+  /*      finally {
             System.out.println("Я все равно выполнился!");
-        }
+        }*/
         System.out.println("Я жив!");
     }
 
