@@ -21,7 +21,7 @@ public class Task2 {
 
         int[] intArray = intArr();
             try {
-               int d = 3;  //Далее следует деление ???
+               int d = 0;  //Далее следует деление ??? И надо ли убирать это число вообще?
                 double catchedRes1 = (double) intArray[8] / d;     // Почему имеено 8?
                 System.out.println("catchedRes1 = " + catchedRes1);
             } catch (ArithmeticException e) {
